@@ -35,6 +35,9 @@ Correlation and Feature Importance Visualization
 
 Model Training and Evaluation
 
+### Discussion
+Among the three models evaluated, Random Forest demonstrated the highest predictive accuracy, outperforming both Logistic Regression and Support Vector Machine (SVM). The Random Forest model achieved an accuracy of 67%, indicating its strength in handling complex interactions between features and managing non-linear relationships. In comparison, Logistic Regression and SVM yielded lower accuracies of 60% and 61%, respectively. These results suggest that Random Forest is better suited for predicting injury risk in football players, likely due to its ensemble approach and ability to handle feature importance and variability more effectively
+
 ### 🧰 Requirements
 Make sure to install the following Python libraries before running the notebook:
 
@@ -61,7 +64,5 @@ sklearn.svm
 
 ### 📂 Files Included
 Injury Risk Prediction in Football.ipynb – Full code notebook
-
-report.html/pdf – Auto-generated project report
 
 README.md – Project overview
